@@ -46,19 +46,29 @@ a {
 		margin-left: 24%;
 	}
 	.links {
-    margin-left: 32%;
+    margin-left: 31.5%;
     margin-top: auto;
     z-index: 0;
 	}
+  a {
+    font-size: 3.0vw;
+  }
 }
 
 /*Mobile*/
 @media only screen and (max-width: 400px) {
    .title {
-     height: 5%;
-     width: 100%;
-		 margin-left: 11%;
+     height: 4%;
+     width: 110%;
+		 margin-left: 7%;
    }
+	.links {
+    display: flex;
+    flex-direction: column;
+    margin-left: 27.5%;
+    margin-top: auto;
+    z-index: 0;
+	}
  }
 
 /*Sideways*/
